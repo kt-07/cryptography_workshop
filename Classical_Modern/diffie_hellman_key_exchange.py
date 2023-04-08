@@ -7,7 +7,7 @@ if __name__ == '__main__':
 	# A prime number P is taken
 	P = 23
 	# A primitive root for P, G is taken
-	G = 9
+	G = 19
 	
 	print('The Value of P is : ', P)
 	print('The Value of G is : ', G)
