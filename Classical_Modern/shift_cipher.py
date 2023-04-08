@@ -38,7 +38,7 @@ def decryption_shift(cipher, key):
                 
             # numbers
             if (ch.isdigit()):
-                ch = chr((ord(ch) - ord('0') + 26 - key) % 10 + ord('0'))
+                ch = chr((ord(ch) - ord('0') + 10 - key) % 10 + ord('0'))
 
         #  Invalid Character in Message
         else:
